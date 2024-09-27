@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+.containers {
+    margin-top: 100px;
+    text-align: center;
+    color: #444444;
+}
+
+.cizgi {
+    width: 60px;
+    height: 3px;
+    background-color: #096799;
+    margin: auto;
+
+}
+
+.containers p {
+    position: relative;
+    margin-top: 50px;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    color: #444444d0;
+
+
+
+
+}
+
+
+.baslik1 {
+    position: relative;
+    text-align: left;
+    margin-left: 400px;
+    font-size: 25px;
+    color: #096799;
+    top: 20px;
+}
+
+.baslik2 {
+    position: relative;
+    text-align: left;
+    margin-left: 400px;
+    font-size: 23px;
+    color: #096799;
+    top: 34px;
+    font-weight: 100;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    right: 77px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group h1 {
+    font-weight: 100;
+    color: #444444;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+
+
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.phoneinput {
+    width: 400px;
+    position: relative;
+    left: 200px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    /* Odaklandığında border rengini değiştirir */
+}
+
+select {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 185px;
+    position: relative;
+    bottom: 40px;
+}
+
+.giris-yazi {
+    text-align: center;
+}
+
+.step2-p {
+    position: relative;
+    right: 80px;
+    top: 10px;
+
+
+}
+
+
+.upload-container {
+    margin-top: 20px;
+    padding: 70px;
+    width: 1200px;
+    margin: auto;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    top: 20px;
+    background-color: #F8F9FA;
+    right:
+        -120px;
+}
+
+.typ {
+    text-align: left;
+    font-size: 23px;
+    color: #096799;
+    font-weight: 100;
+}
+
+input::placeholder {
+    color: #b6b6b6;
+    font-size: 15px;
+}
+
+.langues {
+    margin-right: 70px;
+}
+
+.langues select {
+    width: 600px;
+}
+
+.upload-container:hover {
+
+    border: 2px dashed #096799;
+    transition: 0.5s;
+}
+
+.upload-container input[type="file"] {
+    margin-top: 10px;
+    border: none;
+}
+
+.giris-yazi {
+    text-align: left;
+    position: relative;
+    margin-left: 400px;
+    font-size: 15px;
+}
+
+
+.containers {
+    position: relative;
+    right: 70px;
+}
+
+
+.baslik {
+    text-align: left;
+    position: relative;
+    right: 400px;
+    top: 40px;
+}
+
+.radios {
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 70%;
+        grid-template-columns: 1fr;
+        /* Tek sütuna düşürülür */
+        gap: 20px;
+        right: 0;
+        top: 20px;
+    }
+
+    .baslik1,
+    .baslik2,
+    .giris-yazi {
+        margin-left: 20px;
+
+    }
+
+
+    .baslik2 {
+        position: relative;
+        text-align: right;
+    }
+
+    input,
+    .langues select {
+        width: 100%;
+    }
+
+    .phoneinput {
+        width: 100%;
+        left: 0;
+    }
+
+    .upload-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .baslik1,
+    .baslik2 {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .giris-yazi {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .upload-container {
+        padding: 40px;
+        width: 100%;
+    }
+
+    .cizgi {
+        width: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .baslik1,
+    .baslik2 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .giris-yazi {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    input,
+    .langues select {
+        width: 100%;
+    }
+
+    .upload-container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .cizgi {
+        width: 30px;
+    }
+}
+
+
+.addıtıonalsH1 {
+    text-align: left;
+    font-weight: 100;
+    font-size: 25px;
+    position: relative;
+    bottom: -55px;
+}
+
+.addıtıonals {
+    text-align: left;
+    font-size: 15px;
+    position: relative;
+    bottom: -25px;
+    margin-bottom: 150px;
+}
+
+.detailes-input {
+    height: 200px;
+    width: 1300px;
+    margin-bottom: 100px;
+}
+
+
+.detailes {
+    position: relative;
+    bottom: 100px;
+}
+
+.detailes h1 {
+    font-size: 15px;
+    color: rgba(119, 119, 119, 0.74);
+}
+
+.detailes input::placeholder {
+    position: relative;
+    bottom: 80px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 390px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.checkp {
+    position: relative;
+    bottom: 40px;
+}
+
+.btn {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-shadow: none;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 15px 25px;
+    color: #076799;
+    border: 2px solid #076799;
+    border-radius: 26px;
+    background: transparent;
+    text-transform: none;
+    letter-spacing: .05em;
+    transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+
+    .btn,
+    body:not(.touch) .btn:focus {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 9px 22px;
+        border-radius: 18px;
+        border-width: 1px;
+        box-shadow: inset 0 0 0 1px #076799;
+    }
+}
+
+.company-input {
+    width: 600px;
+}
+
+.radiogrup2,
+.radiogrup1 {
+    position: relative;
+    top: 50px;
+    right: 630px;
+}
+
+.radiogrup1 {
+    position: relative;
+    right: 570px;
+    top: 20px;
+
+}
+
+.custom-label {
+    font-size: 15px;
+    color: #707070;
+    margin-left: 20px;
+    position: relative;
+    right: 17px;
+    margin-bottom: 10px;
+}
+
+
+.son {
+
+
+    width: 150px;
+    height: 50px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    border: 1px solid #004ea1;
+    color: #004ea1;
+    font-size: 20px;
+    background-color: #fff;
+    position: relative;
+    right: 490px;
+    bottom: 100px;
+}
+
+.son:hover {
+    cursor: pointer;
+    background-color: #004ea1;
+    transition: 0.5s;
+    color: white;
+}
